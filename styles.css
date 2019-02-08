@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+
+
+p::first-letter {
+    font-size: x-large;
+}
+
+body {
+    font-family: 'Roboto', cursive;
+    background-color: #FFC317;
+    color: #4B4D4F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    text-overflow: ellipsis;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #FF0054;
+}
+
+h2 {
+    color: #6F45B4;
+}
+
+.mood {
+    display: inline-block;
+    margin: 30px;
+    margin-top: 0px; 
+}
+
+.mood p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mood_container {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
